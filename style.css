@@ -1,0 +1,60 @@
+* {
+      padding: 0;
+      margin: 0 auto;
+}
+
+header{
+      background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-educacao-cientifica-vintage_23-2148483429.jpg?w=2000);
+      width: 200vh;
+      height: 100vh;
+}
+
+nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(0, 0, 0, .2);
+      color: #fff;
+      max-width: 100%;
+}
+
+nav ul {
+      display: flex;
+      padding: 30px;
+      text-decoration: none;
+}
+
+nav ul li {
+      list-style: none;
+      padding: 0 20px;
+      cursor: pointer;
+      font-size: 19px;
+}
+
+nav img {
+      width: 300px;
+      height: 130px;
+}
+
+nav ul li:hover {
+      color: red;
+      cursor: pointer;
+}
+
+.div11  {
+      display: flex;
+      flex-direction: column;
+      max-width: 1000px;
+  
+}
+
+#div1 {
+      background-color: #fff;
+      width: 200vh;
+      height: 100vh;
+}
+
+
+@media (min-width: 768px) {
+      
+}
