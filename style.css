@@ -44,8 +44,30 @@ nav ul li:hover {
 .div11  {
       display: flex;
       flex-direction: column;
+      padding-top: 220px;
+      position: relative;
+      left: 270px;
       max-width: 1000px;
-  
+}
+
+.div11 h1 {
+      font-size: 43px;
+      align-items: center;
+}
+
+.div11 button {
+      margin-top: 20px;
+      align-items: center;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 20px;
+      width: 125px;
+      height: 30px;
+}
+
+.div11 button:hover {
+      color: black;
+      background-color: red;
 }
 
 #div1 {
@@ -56,5 +78,5 @@ nav ul li:hover {
 
 
 @media (min-width: 768px) {
-      
+
 }
