@@ -6,7 +6,7 @@
 header {
       background-image: url(https://img.freepik.com/vetores-gratis/fundo-de-educacao-cientifica-vintage_23-2148483429.jpg?w=2000);
       width: 100%;
-      max-width: 100%;
+      max-width: 200%;
       height: 100vh;
 }
 
@@ -76,7 +76,7 @@ nav ul li:hover {
 .div2 {
       background-color: antiquewhite;
       max-width: 100%;
-      width: 100%;
+      width: 200%;
       height: 80vh;
 }
 
@@ -94,11 +94,51 @@ nav ul li:hover {
 }  
 
 .div2 img {
-      padding-left: 1080px;
+      position: relative;
+      padding-left: 990px;
       margin-top: -50px;
-      width: 460px;
+      width: 560px;
       height: 350px;
       border-radius: 10px;
 }
+
+@media screen and (max-width: 768px) {
+      nav  {
+      display: flex;
+      flex-direction: column;
+      }
+    } 
+
+    @media screen and (max-width: 1024px) {
+      .div2{
+            background-color: antiquewhite;
+            height: 100vh;
+      }
+    }
+    @media screen and (max-width: 1366px) {
+      .div2 h1{
+        padding-left: 90px;
+        padding-top: 60px;
+      }
+    } 
+
+    @media screen and (max-width: 1366px) {
+      .div2 p{
+        padding-left: 90px;
+        padding-top: 5px;
+        font-size: 20px;
+      }
+    } 
+
+@media screen and (max-width: 1366px) {
+      .div2 img {
+        padding-left: 835px;
+        margin-top: -35px;
+        width: 450px;
+        height: 260px;
+      }
+    } 
+
+
 
 
