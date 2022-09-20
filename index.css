@@ -179,8 +179,8 @@ nav ul li:hover {
 
 @media screen and (max-width: 1366px) {
       .div2 img {
-        padding-left: 790px;
-        margin-top: -145px;
+        padding-left: 780px;
+        margin-top: -135px;
         width: 550px;
         height: 300px;
       }
@@ -189,7 +189,7 @@ nav ul li:hover {
     @media screen and (max-width: 1366px) {
       .div2 hr {
         position: relative;
-        top: 30px;
+        top: 95px;
       }
     } 
 
