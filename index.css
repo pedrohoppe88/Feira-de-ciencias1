@@ -134,10 +134,19 @@ nav ul li:hover {
       border-radius: 10px;
 }
 
+
 @media screen and (max-width: 1366px) {
       .div1  {
-      display: flex;
+      display: inline-block;
       justify-content: center;
+      padding-left: 120px;
+      }
+    }
+
+    @media screen and (max-width: 1366px) {
+      .div1 button  {
+      margin-left: 21px;
+      
       }
     }
 
@@ -171,14 +180,23 @@ nav ul li:hover {
 @media screen and (max-width: 1366px) {
       .div2 img {
         padding-left: 790px;
-        margin-top: -115px;
+        margin-top: -145px;
         width: 550px;
         height: 300px;
       }
     } 
+
+    @media screen and (max-width: 1366px) {
+      .div2 hr {
+        position: relative;
+        top: 30px;
+      }
+    } 
+
     hr {
       color: black;
       width: 50%;
+      
     }
 
 .div3 {
