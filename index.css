@@ -22,7 +22,7 @@ nav {
 #home {
       width: 80px;
       height: 60px;
-      padding-top: 350px;
+      padding-top: 550px;
       cursor: pointer;
       position: fixed;
 }
@@ -60,28 +60,38 @@ nav img {
 }
 
 nav ul li:hover {
+      background-color: rgb(102, 4, 135);
+      border-radius: 23px;
       transition: 0.60s;
-      color: red;
-      font-size: 20px;
+      color:#fff;
+      font-size: 21px;
+      overflow: hidden; 
 }
+
+
 .div1 {
       max-width: 100%;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
       flex-direction: column;
-      padding-top: 270px; 
+      padding-top: 10vh; 
+      padding-right: 800px
 }
 
 .div1 h1 {
       font-size: 56px;
       padding: 10px;
+      color: #fff;
 }
 
 .div1 button {
-      width: 230px;
-      height: 30px;
-      border-radius: 20px;
+      align-items: center;
+      width: 150px;
+      height: 50px;
+      border-radius: 4px;
       font-size: 19px;
+      margin-top: 60px;
+      margin-right: 600px ;
 }
 
 .div1 button:hover {
@@ -161,8 +171,8 @@ nav ul li:hover {
 @media screen and (max-width: 1366px) {
       .div2 img {
         padding-left: 790px;
-        margin-top: -85px;
-        width: 520px;
+        margin-top: -115px;
+        width: 550px;
         height: 300px;
       }
     } 
