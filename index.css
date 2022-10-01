@@ -219,9 +219,101 @@ nav ul li:hover {
 
 
 .div3 {
-      background-color: rgb(11, 134, 235);
+      background-color: rgba(255, 255, 255, 0.688);
       max-width: 100%;
       width: 200%;
       height: 80vh;
 }
+
+.div3 h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 140px;
+      font-size: 49px;
+}
+
+#hr1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 160px;
+      margin-top: 70px;
+      border: 1px solid  greenyellow;
+}
+
+#hr2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 320px;
+      margin-top: 50px;
+      border: 1px solid  greenyellow;
+      
+}
+
+.cards {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 90px;
+}
+
+#card1 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 255, 0.548);
+      width: 380px;
+      height: 400px;
+      border-radius: 20px;
+}
+
+#card1 h3 {
+      display: flex;
+      justify-content: center;
+      padding: 60px; 
+}
+
+#card1 img {
+      padding: 20px;
+      border-radius: 50px;
+
+}
+
+
+
+#card2 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 255, 0.548);
+      width: 380px;
+      height: 400px;
+      border-radius: 20px;
+  
+}
+
+#card3 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 255, 0.548);
+      width: 380px;
+      height: 400px;
+      border-radius: 20px;
+  
+}
+
+
+#card4 {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(0, 0, 255, 0.548);
+      width: 380px;
+      height: 400px;
+      border-radius: 20px;
+  
+}
+
+
+
+
 
