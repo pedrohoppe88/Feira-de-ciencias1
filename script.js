@@ -1,5 +1,5 @@
 
-('.div1 a[href^="#"]').on('click', function(e) {
+('.div_2 a[href^="#"]').on('click', function(e) {
 	e.preventDefault();
 	var id = $(this).attr('href'),
 			targetOffset = $(id).offset().top;
